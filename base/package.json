@@ -1,0 +1,13 @@
+{
+  "name": "megabus-scraper",
+  "version": "0.0.1",
+  "description": "Megabus price scraper",
+  "main": "server.js",
+  "author": "team",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "package": "^1.0.1",
+    "request": "latest"
+  }
+}

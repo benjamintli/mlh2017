@@ -1,0 +1,7 @@
+- alias: megabus
+  config:
+    configmap: controller-conf
+    namespace: hasura
+  data: null
+  kubeContext: common13
+  name: common13
