@@ -5,9 +5,11 @@
   "main": "server.js",
   "author": "team",
   "dependencies": {
-    "cheerio": "latest",
-    "express": "latest",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
     "package": "^1.0.1",
-    "request": "latest"
+    "package.json": "^2.0.1",
+    "request": "^2.83.0",
+    "server.js": "^1.0.0"
   }
 }
