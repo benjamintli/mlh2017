@@ -1,0 +1,9 @@
+- args:
+    sql: CREATE TABLE "megabus_data"("start_location" text NOT NULL, "end_location"
+      text NOT NULL, "date" date NOT NULL, "time" timetz NOT NULL, "cost" integer
+      NOT NULL, "id" serial NOT NULL, "travelers" integer NOT NULL, PRIMARY KEY ("id")
+      )
+  type: run_sql
+- args:
+    name: megabus_data
+  type: add_existing_table_or_view
